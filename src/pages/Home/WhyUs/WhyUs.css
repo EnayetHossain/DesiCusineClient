@@ -1,0 +1,23 @@
+.why-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(30rem, 100%), 1fr));
+    gap: 5rem;
+    font-size: 1.6rem;
+    margin: 2em 0;
+}
+
+.why-card {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(var(--accent-color));
+    box-shadow: 1px 1px 5px rgba(var(--neutral-color), 0.4);
+}
+
+.icon {
+    font-size: 10rem;
+    margin-bottom: 0.2em;
+    color: rgba(var(--accent-color))
+}

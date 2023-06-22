@@ -1,0 +1,50 @@
+.download-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.download-info {
+    width: min(40rem, 100%);
+    margin: 2em auto;
+}
+
+.download-title {
+    font-size: clamp(2.4rem, 2.4vw, 3rem);
+    color: rgba(var(--accent-color));
+}
+
+.download-description {
+    margin: 1em 0;
+}
+
+.cta-btn {
+    font-size: 1.8rem !important;
+    padding: 0.5em !important;
+}
+
+.cta-btn:first-child {
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.cta-icon {
+    font-size: 2rem;
+}
+
+.download-img {
+    margin: 2em auto;
+}
+
+.download-img img {
+    width: 30em;
+}
+
+@media only screen and (max-width: 517px) {
+    .download-img img {
+        width: 100%;
+    }
+}

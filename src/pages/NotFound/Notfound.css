@@ -1,0 +1,22 @@
+.not-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("/public/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.not-title {
+    font-size: clamp(5.3rem, 6vw, 8rem);
+    color: rgb(var(--dark));
+}
+
+.not-description {
+    font-size: clamp(2rem, 2vw, 3rem);
+    text-transform: capitalize;
+    color: rgb(var(--dark-3));
+}

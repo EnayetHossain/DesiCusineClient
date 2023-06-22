@@ -1,0 +1,35 @@
+.footer {
+    background-color: rgba(var(--accent-color));
+    color: white;
+    padding: 1em;
+}
+
+.footer>p {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.footer-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 3em 0;
+    flex-wrap: wrap;
+}
+
+.descriptive {
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+.links {
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+}
+
+.links a {
+    color: white;
+    margin: 0.3em 0;
+}

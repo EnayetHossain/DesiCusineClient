@@ -1,0 +1,74 @@
+.cooks-title {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.chefs-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(25rem, 100%), 1fr));
+    gap: 4rem;
+    margin: 6em 0;
+}
+
+.card {
+    padding: 1em;
+    border-radius: 0.5em;
+    border: 1px solid rgba(var(--accent-color), 0.4);
+}
+
+.card-img {
+    overflow: hidden;
+    width: 100%;
+}
+
+.chef-name {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0.5em 0
+}
+
+.recipe-experience {
+    font-size: 1.6rem;
+    margin: 1em 0;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.ratings {
+    color: rgba(var(--accent-color));
+    font-weight: bolder;
+    flex-grow: 1;
+}
+
+.ingredients {
+    font-size: 1.4rem;
+    margin: 1em 0;
+}
+
+.ingredients strong {
+    font-weight: 700;
+}
+
+.ingredients-list {
+    list-style-type: none;
+}
+
+.ingredients-list li {
+    margin: 0.3em 0;
+}
+
+.btn-disabled {
+    color: rgba(var(--neutral-color));
+    background-color: rgba(var(--accent-color), 0.4);
+    cursor: auto;
+}
+
+.rating {
+    margin-right: 0.5em;
+}

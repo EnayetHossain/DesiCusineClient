@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --accent-color: 252, 144, 3;
+    --neutral-color: 140, 140, 140;
+    --neutral-color-10: 232, 240, 254;
+    --white: 232, 232, 232;
+    --white-2: 244, 244, 244;
+    --blue: 126, 144, 254;
+    --clr-primary-400: hsl(263 55% 52%);
+    --clr-secondary-400: hsl(217 19% 35%);
+    --clr-secondary-500: hsl(219 29% 14%);
+    --clr-neutral-100: hsl(0 0% 100%);
+    --clr-neutral-200: hsl(210 46% 95%);
+    --clr-neutral-300: hsl(0 0% 81%);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.max-desktop {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: rgba(var(--accent-color));
+    padding: 0.5em 1em;
+    color: white;
+    font-weight: 600;
+    outline-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0 0.5em;
+}

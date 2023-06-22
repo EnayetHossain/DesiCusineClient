@@ -1,0 +1,113 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    align-items: center;
+    margin: 1em 0;
+    padding: 0.5em 0;
+    flex-wrap: wrap;
+}
+
+.logo {
+    color: rgba(var(--accent-color));
+}
+
+.main-menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.main-menu a,
+.mobile-menu-item a {
+    color: rgba(var(--neutral-color));
+    font-weight: 600;
+}
+
+.main-menu a:hover {
+    color: rgba(var(--accent-color));
+}
+
+.main-menu .menu-item {
+    margin: 0 1em;
+}
+
+.profile-pic {
+    background-color: rgba(var(--neutral-color-10));
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: 0 1em;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.login-menu {
+    display: flex;
+    align-items: center;
+}
+
+.ham-bar {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu {
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+    display: none;
+}
+
+.mobile-menu-items {
+    list-style-type: none;
+}
+
+.mobile-menu-item,
+.login-register>.btn {
+    margin: 1em 0;
+}
+
+.login-register {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-login-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-login-menu>button {
+    margin-top: 1em;
+}
+
+.height-0 {
+    height: 0;
+    overflow: hidden;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.active {
+    color: rgba(var(--accent-color)) !important;
+}
+
+@media only screen and (max-width: 517px) {
+    .ham-bar {
+        display: block;
+    }
+
+    .login-menu,
+    .main-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+}
